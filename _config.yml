@@ -104,3 +104,4 @@ theme: landscape
 deploy:
   type: git
   repository: git@github.com:NoahWong90/NoahWong90.github.io.git
+  branch: main
