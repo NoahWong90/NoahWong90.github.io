@@ -16,7 +16,7 @@ tags:
 - Index / Stage：暂存区
 - Repository：仓库区（或本地仓库）
 - Remote：远程仓库
-
+<!-- more -->
 ## 1.创建代码库
 ```git
 # 在当前目录初始化一个Git代码库

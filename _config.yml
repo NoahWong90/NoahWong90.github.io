@@ -1,10 +1,10 @@
-title: Hexo
-subtitle: ''
-description: ''
-keywords: null
-author: John Doe
-language: en
-timezone: ''
+title: Noah Wong's Blog
+subtitle: 'Noah Wong的开发者技术博客'
+description: '日常分享工作技术笔记、分享C#、.NET的博客'
+keywords: git
+author: Noah Wong
+language: zh-Hans
+timezone: 'Asia/Shanghai'
 url: http://example.com
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
