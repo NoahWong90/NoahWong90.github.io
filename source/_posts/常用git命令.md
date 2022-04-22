@@ -1,22 +1,31 @@
 ---
 title: 常用git命令
-date: 2022-04-21 19:10:01
+date: 2021-04-21 19:10:01
+categories:
+- 脚本
 tags:
-  git
-  git命令
+- 脚本
+- git
+- git命令
 ---
 
-一般我们经常使用到的git命令就几个，而如果要把git用好，综合会有一百多个命令，本文会把我常用到的git命令记录记录，以便于我在开发中使用。
+Git是一个免费的开源分布式版本控制系统，可以快速高效地处理从小型到大型项目的所有事务，日常开发中使用到。
+
+一般我们经常使用到的git命令就几个，而如果要把git用好，综合会有一百多个命令，本文会把我常用到的git命令记录，以便于我在开发中查询使用。
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/22975869/1650534506078-7c7095f9-11aa-469a-a30f-f5631959e07a.png#clientId=uef6b0ea8-e300-4&crop=0&crop=0&crop=1&crop=1&from=paste&id=u77b21611&margin=%5Bobject%20Object%5D&name=image.png&originHeight=340&originWidth=1172&originalType=url&ratio=1&rotation=0&showTitle=false&size=55226&status=done&style=none&taskId=udbc65161-674f-4a96-bcbb-1daf401f1e8&title=)
+![image.png](http://331.5kst.flxm66.com/Blog/2022-4-22-1.png)
 
 
 - Workspace：工作区
+
 - Index / Stage：暂存区
+
 - Repository：仓库区（或本地仓库）
+
 - Remote：远程仓库
-<!-- more -->
+
+  
 ## 1.创建代码库
 ```git
 # 在当前目录初始化一个Git代码库
@@ -28,7 +37,8 @@ $ git init [project-name]
 # 克隆指定项目
 $ git clone [url]
 ```
-## 
+<!-- more -->
+
 ## 2.配置
 Git的设置文件为.gitconfig，在主目录下配置（全局配置），也可项目目录下配置（项目配置）
 ```git

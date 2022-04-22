@@ -1,0 +1,1 @@
+git add .&&git pull&&git commit -m "脚本自动提交”&& git push
