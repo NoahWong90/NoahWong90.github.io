@@ -1,12 +1,15 @@
 title: Noah Wong's Blog
 subtitle: 'Noah Wong的开发者技术博客'
-description: '日常分享工作技术笔记、分享C#、.NET的博客'
+description: '分享工作技术黑科技、爬虫、PM管理、敏捷开发'
 keywords: git
 author: Noah Wong
 language: zh-Hans
 timezone: 'Asia/Shanghai'
 url: http://example.com
-permalink: ':year/:month/:day/:title/'
+permalink: posts/:abbrlink/
+abbrlink:
+    alg: crc32   #算法： crc16(default) and crc32
+    rep: hex
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
@@ -70,3 +73,5 @@ widgets:
     position: left
   - type: recent_posts
     position: right
+
+
