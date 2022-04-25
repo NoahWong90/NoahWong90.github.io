@@ -38,7 +38,19 @@ git fetch
 git pull [远端仓库] [分支名]
 ```
 
+ssh秘钥配置
 
+```git
+#设置用户
+git config --global user.name "xxx"
+git config --global user.email "xxx@xx.com"
+#通过ed25519方式加密,rsa加密方式有时会出现密钥无效的情况
+ssh-keygen -t ed25519 -C "xxx@xx.com"
+#rsa加密方式
+ssh-keygen -t rsa -C "xxx@xx.com"
+```
+
+<!-- more -->
 
 提交远程仓库组合
 
@@ -78,10 +90,6 @@ git pull
 git merge origin main 
 ```
 
-查询
-
-
-
 
 
 ## 一.Git常用命令汇总
@@ -97,7 +105,7 @@ $ git init [project-name]
 # 克隆指定项目
 $ git clone [url]
 ```
-<!-- more -->
+
 
 ### 2.配置
 Git的设置文件为.gitconfig，在主目录下配置（全局配置），也可项目目录下配置（项目配置）
