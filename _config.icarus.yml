@@ -246,7 +246,7 @@ widgets:
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: https://github.com/ppoffice
+        follow_link: https://www.noahwongblog.com
         # Links to be shown on the bottom of the profile widget
         #social_links:
         #    Github:
