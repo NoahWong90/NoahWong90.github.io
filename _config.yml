@@ -5,7 +5,16 @@ keywords: git
 author: Noah Wong
 language: zh-Hans
 timezone: 'Asia/Shanghai'
-url: http://example.com
+url: https://www.noahwongblog.com
+# sitemap
+Plugins:
+  - hexo-generator-baidu-sitemap
+  - hexo-generator-sitemap
+baidusitemap:
+  path: baidusitemap.xml
+sitemap:
+  path: sitemap.xml
+ 
 permalink: posts/:abbrlink/
 abbrlink:
     alg: crc32   #算法： crc16(default) and crc32
@@ -75,3 +84,8 @@ widgets:
     position: right
 
 
+baidu_url_submit:
+  count: 3 ## 比如3，代表提交最新的三个链接
+  host: https://www.noahwongblog.com ## 在百度站长平台中注册的域名
+  token: gdp530bHXeREbFQ3 ## 请注意这是您的秘钥， 请不要发布在公众仓库里!
+  path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里

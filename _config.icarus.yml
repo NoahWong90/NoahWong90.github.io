@@ -114,10 +114,19 @@ manifest:
 navbar:
     # Navigation menu items
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
+        首页: /
+        文章归档: /archives
+        分类: /categories
+        标签: /tags
+        #个人简介: /about
+        #留言: /message
+        #音乐: /music
+        #媒体: /media
+        
+        #Home: /
+        #Archives: /archives
+        #Categories: /categories
+        #Tags: /tags
         #About: /about
     # Links to be shown on the right of the navigation bar
     #links:

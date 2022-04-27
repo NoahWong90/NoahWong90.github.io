@@ -1,5 +1,5 @@
 ---
-title: Git报错enSSL SSL_read Connection was reset解决方法
+title: Git报错OpenSSL SSL_read Connection was reset解决方法
 categories:
   - git
 tags:
